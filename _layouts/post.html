@@ -33,7 +33,7 @@ layout: default
         <div class="post-heading">
           <h1>{{ page.title }}</h1>
           {% if page.subtitle %}
-          <h2 class="subheading">{{ page.subtitle }}</h2>
+          <h2 class="subheading" style="color:white; font-family:munich;">{{ page.subtitle }}</h2>
           {% endif %}
           <span class="meta">J / {{ page.date | date: '%B %d, %Y' }}</span>
         </div>
@@ -44,8 +44,7 @@ layout: default
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-10 col-md-10 mx-auto post-body" style="font-size: 20px;
-color: white; font-family:munich;">
+    <div class="col-lg-10 col-md-10 mx-auto post-body" >
 
       {{ content }}
       <div class="tooltipcontainer">
