@@ -2,36 +2,19 @@
 background: https://images.unsplash.com/photo-1586553226533-091756644c6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1275&q=80 
 layout: post
 artist: artstation.com/outpostzero
-subtitle: A lesson in science.
-title: Evolution makes you feel like crap.
+subtitle: Levinson.
+title: Levinson keyboard build.
 ---
+The Levinson keyboard is great for a first time build. However, its terrible for someone that isn't used to split columnar 40% keyboards. I'll break that down a bit. 
 
-I had taken a Bio Informatics course during my Master's, and it dealt with DNA, genes and all that stuff.
-<br/>During that time, I read somewhere that polar bears actually didn't start out that way, but evolved because being white camouflaged them on the ice and gave an advantage while hunting, so subsequently all bears in those regions evolved that way. 
-<br/>
-It reminded me of a story I heard when I was really young, something about rats getting immune to disease though evolution. 
+Split keyboards are literally split into two halves. This can be a challenge for many people that never really learned where all the “home row” keys are by touch. Touch typing is when you don’t need to look at the keys to know where they’re positioned. However, this is a very useful skill for someone that uses a keyboard most of the day. Having it split is nice because now you have the freedom to move the keyboard around your desk. If you suffer from or, don’t want to suffer from, repetitive stress injury (RSI). 
 
-I got to thinking, and a chain of thought was floating in my head that if someone wills hard over generations they evolve to gain advantage. So, I was wondering if the evolution takes place in the tiniest steps every generation.
-<br/>
-I was asking project mates from the Bio informatics course about polar bears, how they knew white gave an advantage over other colors, that they eventually evolved into full blown whites. I was wondering that maybe color faded slowly into white every generation as they evolved.
-<br/>
-Boy, was I wrong. I thought we controlled evolution.
-I was discussing the same with Mag a couple of years later, and he suggested that maybe the ones that didn't evolve simply died. That made so much sense. 
+Columnar, refers to the way the keys are laid out. The keys are in columns. No staggering about it. Most keyboard you see today are staggered. I like this. It feels more natural for my fingers. They just move up and down rather than side to side.
 
-And it was a slow burn that was smoldering in my head, till I came to terms with it: we're not the champions of evolution, but merely the byproducts. That just broke me. I had a false sense of control and pride about the achievements of us, as mankind. We made it this far with our superiority, right?
+40% keyboards are pretty extreme I’ll admit it. However, there are a lot of keys that I don’t use regularly. Since I’m a programmer, there’s also a lot of keys that I do use regularly that many normal people don’t use. For example, the “tilda ~ “ key I press ***a lot***. This is a shortcut for the home directory in Linux on the terminal. I want that key close to my pinky finger. Having a smaller keyboard means all the keys are closer to my fingers. However I still have all my keys.
 
-# A Thought Experiment:
-Take a hypothetical population of 3 legged stick figures filling up a hypothetical planet. Let's say the planet had a periodical cycle of strong winds that wipe out whoever does not hang on to the trees.
-<br/>
-Now, what I thought was, the stick men would know about this and deepdown inside their heads an idea would be born, that having an extra leg would give them an unprecedented advantage over nature. So, that idea after several generations would eventually transform into the Stick men developing a fourth leg.
-<br/>
-Okay, I know, this sounds stupid now. But, that was my understanding for years.
+Layers are the secret, to the outsider, to having all my keys. QMK firmware powers my keyboard. This phenomenal software gives one godlike powers over there keyboard. I have dedicated layer buttons. These buttons let me access all my numbers and symbols. Now I have all the same keys as a normal keyboard and they’re closer to my home-row! Layers are basically like holding down the shift key to access symbols like the exclamation mark only they’re fully programmable. I can rearrange all my symbols to be right where I want them. 
 
-# The Reality
-Reproduction is often imperfect, and mutations are unavoidable. We do see people with 6 fingers, and animals with other weird genetic mutations.
-Let's say about three Stick men develop a genetic mutation in a generation giving them 4 legs. The wind comes and goes, and these 3 are left alive. Being living things, they mate and give rise to 8 more little Stick men. And they dont' turn back from that point. Whoever isn't mutated does not make it long.
-<br/>
-So, there it is, we're the leftovers, the lucky ones. The praying mantis thats the color of the leaves didn't get there by will, but rather by process of elimination. We didn't evolve intelligently to walk on 2 legs, it's just that these 2 legged people had a higher survival rate, and they eventually outnumbered the other ones.
+The levinson keyboard also has a full set of RGB LED lights. This means, I get cool lights to play with through-out the day. 
 
-Basically, we're trash that nature hasn't thrown out yet. 
-Evolution isn't an intelligent, sophisticated machine. It is brute force.
+This is a fun keyboard that keeps me loving my job. In the end all that really matters is that you enjoyed your life. Anything that gets you a little be more enjoyment during your work day is a marginal gain, and in this age marginal gains are where it’s at!
