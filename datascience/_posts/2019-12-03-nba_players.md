@@ -13,3 +13,6 @@ category: datascience
 
 
 <img style="background-color:gray; height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/fieldgoalspergame.png" alt="Field Goals per game">
+
+
+Background and thumbnail image by: [Olamar Gibson](https://www.artstation.com/artwork/DxBK3e)
