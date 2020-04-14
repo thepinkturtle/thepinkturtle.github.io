@@ -8,4 +8,4 @@ category: projects
 ---
 Have you ever been siting at your desk and moving from side to side poring over expense reports, quarterly reports or looking through your drawers for the memo your boss gave you? I surely never have, however that does seem like it would be worthy of exudation of water-rich secretion. According to the internet a fully grown adult, at maximum capacity, can secrete 2-4 liters of this stuff an hour.  Let this little guy help you with your thermoregulation. Follow the link to get some help with evaporation.
 
-Check out the complete build on <a style="color:white;"href="https://www.instructables.com/id/Face-Tracking-Desk-Fan/">instructables</a>
+Check out the complete build on <a href="https://www.instructables.com/id/Face-Tracking-Desk-Fan/">instructables</a>
