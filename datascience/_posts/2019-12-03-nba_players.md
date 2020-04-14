@@ -30,4 +30,4 @@ There are many factors that need to be consider for an analysis on this data. Po
 These are just some interesting findings and discussion points. These findings would be a great starting point for some serious deep data mining. 
 
 
-Background and thumbnail image by: [Olamar Gibson](https://www.artstation.com/artwork/DxBK3e)
+Background and thumbnail image by: <a href="https://www.artstation.com/artwork/DxBK3e">Olamar Gibson</a>
