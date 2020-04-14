@@ -12,7 +12,7 @@ category: datascience
 <img src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/fieldgoalsperattempt.png" alt="Field Goals per attempt made">
 
 
-<img src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/fieldgoalspergame.png" alt="Field Goals per game">
+<img style="background-color:white;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/fieldgoalspergame.png" alt="Field Goals per game">
 
 
 Thumbnail and background art from [Olamar Gibson](https://www.artstation.com/artwork/DxBK3e)
