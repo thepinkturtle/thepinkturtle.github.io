@@ -6,7 +6,7 @@ subtitle: A brief look into immunizable diseases
 title: They are trying to kill you
 categories: datascience
 ---
-Immunizable diseases are the diseases that have known and effective vaccines. During this time of novel COVID-19 crisis. I thought It’d be interesting to look at historical outbreaks of other known pathogens. I chose California for two reasons: the foremost being, it had the most updated complete publicly available dataset I could easily get my hands on. The second reason; because california is like a small country unto its own. In many ways it can be treated as a simulation of what over states will encounter if they follow the same socio economic trends. 
+Immunizable diseases are the diseases that have known and effective vaccines. During this time of novel COVID-19 crisis. I thought It’d be interesting to look at historical outbreaks of other known pathogens. I chose California for two reasons: the foremost being, it had the most updated complete publicly available dataset I could easily get my hands on. The second reason; because california is like a small country unto its own. In many ways it can be treated as a simulation of what over states will encounter if they follow the same socio-economic trends. 
 
 I got my dataset from the [California Department of Public Health](https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/disease.aspx)
 and my python scripts can be found on [github](https://github.com/thepinkturtle/jupyter/blob/master/immunizable_diseases_california.ipynb). I used numpy, pandas, seaborn and matplotlib for this data mining operation.
