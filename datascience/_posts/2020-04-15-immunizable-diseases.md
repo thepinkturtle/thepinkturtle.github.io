@@ -2,7 +2,7 @@
 background: https://cdnb.artstation.com/p/assets/images/images/019/383/585/large/monkeyverse-mv-qs-hum-epidemiologist-final.jpg?1563249587
 layout: post
 artist: Devin
-subtitle: A brief look in immunizable diseases
+subtitle: A brief look into immunizable diseases
 title: They are trying to kill you
 categories: datascience
 ---
