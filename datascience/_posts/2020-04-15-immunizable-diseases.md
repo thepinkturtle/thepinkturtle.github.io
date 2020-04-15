@@ -17,8 +17,17 @@ This could be due to a variety of factors. Perhaps, population growth. There cou
 
 <img style="height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/reported-cases-california.png" alt="reported cases of immunizable diseases in california plot">
 
+
+It’s clear from the plot below that the most dense places in California are the ones with the most cases. Perhaps since the population is more dense the diseases spread quicker. Or, maybe the majority of the anti-vaccine groups are clustered in these areas. These are all interesting theories that should be research more before any causality is presumed 
+
 <img style="height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/cases-by-county.png" alt="reported cases of immunizable diseases by counties in california plot">
 
+
+This last plot is the most interesting to me. I admit the colors aren’t great. However, you can clearly see that Pertussis (whooping cough) is on a historic rise. This is concerning regardless of population growth or other factors that might contribute. Pertussis is highly contagious and it kills babies very easily, and those little human’s can’t get the vaccine until they are three months old. If they contract Pertussis before that there is no treatment, only a vaccine. Meaning, they can’t just take some antibiotics and then it will clear up. They have no protection until they're vaccinated.
+
 <img style="height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/cases-los-angeles.png" alt="reported cases of immunizable diseases in los angeles county plot">
+
+
+In conclusion, data mining is fun and intriguing. It often leaves me with more questions than answers. No definite conclusions should be made after data mining. Trends should be noted and then experiments should be started to gather more data. Get your vaccinations!
 
 Thumbnail and banner art sourced from [Yuvraj Jha](https://www.artstation.com/artwork/nQOJkX)
