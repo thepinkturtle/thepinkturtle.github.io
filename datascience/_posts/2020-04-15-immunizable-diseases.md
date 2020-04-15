@@ -18,7 +18,7 @@ This could be due to a variety of factors. Perhaps, population growth. There cou
 <img style="height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/reported-cases-california.png" alt="reported cases of immunizable diseases in california plot">
 
 
-It’s clear from the plot below that the most dense places in California are the ones with the most cases. Perhaps since the population is more dense the diseases spread quicker. Or, maybe the majority of the anti-vaccine groups are clustered in these areas. These are all interesting theories that should be research more before any causality is presumed 
+It’s clear from the plot below that the most dense places in California are the ones with the most cases. Perhaps since the population is more dense the diseases spread quicker. Or, maybe the majority of the anti-vaccine groups are clustered in these areas. These are all interesting theories that should be researched more before any causality is presumed 
 
 <img style="height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/cases-by-county.png" alt="reported cases of immunizable diseases by counties in california plot">
 
