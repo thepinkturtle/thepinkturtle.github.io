@@ -17,11 +17,11 @@ In the first plot, it’s interesting to see the divergence between Kobe Bryant 
 <img style="background-color:gray; height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/salary.png" alt="NBA player salaries">
 
 
-Dwight Howard killed it the field goals per attempt arena. He at one point, had an accuracy of over %60! I mean, that’s amazing! Basically, if you’re his opponent and he goes up for one, you might as well spit in his eyes, because that’s the only chance you might have of stopping the guy. 
+Dwight Howard killed it in the "field goals per attempt" arena. He, at one point, had an accuracy of over %60! I mean, that’s amazing! Basically, if you’re his opponent and he goes up for basket, you might as well spit in his eyes, because that’s the only chance you might have of stopping the guy. 
 
 <img style="background-color:gray; height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/fieldgoalsperattempt.png" alt="Field Goals per attempt made">
 
-Dwight Howard also was in the median payscale for all these guys in beginning. In 2005-6 he was in the top of his class with accuracy, however he shot for less than the rest of them. Though, it looks like he had a decent agent because after his performance in 2005-6 seasons he more than doubled his salary and it continued to increase. Even though his field goals per game varied by a approximately one attempt.
+Dwight Howard was also in the median payscale for all these guys, in the beginning. In 2005-6 he was in the top of his class for accuracy, however his "shot attempts" were fewer that the rest of the players. Though, it looks like he had a decent agent because after his performance in 2005-6 seasons he more than doubled his salary and it continued to increase. Even though his field goals per game varied by a approximately one attempt.
 
 <img style="background-color:gray; height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/fieldgoalspergame.png" alt="Field Goals per game">
 
