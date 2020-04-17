@@ -6,7 +6,7 @@ subtitle: NBA players put to the test.
 title: Does higher salary mean you're a better preformer?
 category: datascience
 ---
-## NBA salaries
+***### NBA salaries***
 I began wondering, how much does performance affect your salary? If I’m a super-duper programmer, do I get a super-duper salary? It’s really hard to gauge a programmers abilities. There's so much that goes into being a “good” programmer that it’s a very difficult problem. So much so, that we now have companies that programmers pay to get them up to snuff, straight out of college. The hiring process is broken for programmers. That’s a deep rabbit hole for later.
 
 I decided that athletes’ performances is directly measurable to a good degree. I went out, and found a dataset that gave me a good aggregation of the top NBA players in the spans of 2005-2014, somewhat dated I acknowledge. Nonetheless, It’s an interesting dataset.
