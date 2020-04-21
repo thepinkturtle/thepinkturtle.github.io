@@ -8,7 +8,7 @@ background: "/img/bg-about.jpg"
 - Softare Engineer
 - Data Scientist
 - Cat and Dog lover
-- Automation and Machine rights activist
+- Automation and machine rights activist
 
 ## About me
 I run this site with Github Pages and Jekyll. I'm a software engineer and Data Scientist. I like exploring data and seeing what I can find. I use python, AWS sagemaker and Tableau for the majority of my insights.
