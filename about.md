@@ -16,5 +16,5 @@ I run this site with Github Pages and Jekyll. I'm a software engineer and Data S
 On my days off you can find me mountain biking, road cycling, book reading, building custom mechanical keyboards, backpacking, mountain climbing and social distancing. To name a few things.
 
 ### Contact
-To get in contact with me for complaints or praises email me at devinlax at hotmail dot com.  
+To get in contact with me for complaints or praises email me: devinlax at hotmail dot com.  
 Themes and images have been sourced from [square zero](https://github.com/squarezero/squarezero.github.io)
