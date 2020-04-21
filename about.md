@@ -17,5 +17,4 @@ On my days off you can find me mountain biking, road cycling, book reading, buil
 
 ### Contact
 To get in contact with me for complaints or praises email me at devinlax at hotmail dot com.  
-Themes and images have been sourced from (square zero)[https://github.com/squarezero/squarezero.github.io]
-
+Themes and images have been sourced from [square zero](https://github.com/squarezero/squarezero.github.io)
