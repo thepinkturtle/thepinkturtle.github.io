@@ -1,46 +1,56 @@
 ---
-background: https://cdnb.artstation.com/p/assets/images/images/016/212/305/large/evan-michalski-evening.jpg?1551325311
+background: https://cdnb.artstation.com/p/assets/images/images/024/162/177/large/adomas-storpirstis-threeredlights.jpg?1581510248
 layout: post
 artist: Devin
-subtitle: How do you rate, next to the critics?
-title: Don't be such a critic.
+subtitle: An exploration into automating data gathering, cleansing and processing.
+title: Dirty data
 category: datascience
 ---
-## Movies, america's favorite pass time.
-According to [statista](https://www.statista.com/statistics/187069/north-american-box-office-gross-revenue-since-1980/) the box office revenues for north america were more than $11 Billion in 2019. Clearly, we like our movies. I take a look at movie ratings based on audience and critic reviews with varying movie budgets.
+## Overview
+I wanted to create a dataset from scratch and make a convolution neural network to identity different types of ships. I decided to go with a chinese Type 052 destroyer and a DDG Zumwalt class destroyer. The Zumwalt is distinct from all other ships. I used it in hopes of getting a decent result when training on my local machine against the Type 052.
 
 ## Mining Op.
-I gathered my data and code examples from [superdatascience](https://www.superdatascience.com/) who in turn got it from [rotten tomatoes](https://www.rottentomatoes.com). I used Seaborn, Numpy, Pandas and Matplotlib again to compile the data analysis and create the plots. My python code and a lot more insights can be found on [github](https://github.com/thepinkturtle/jupyter/blob/master/rotten_tomatoes_movies.ipynb)
+I used my standard tools for this; namely VSCode with the Jupyter extension, Python, Numpy and Keras with the Tensorflow backend. Furthermore, I got to use Amazon’s AWS Rekognition software too. All my code can be found on [github](https://github.com/thepinkturtle/rocket_rhino).
 
-## Paying off the critics?
-A big question I had was, do higher budget movies tend to get a better critic rating? Well, based on this data it would appear critics are no respecter of budgets, so to speak. With the heat map you can tell that only a few high budget movies get approximately 90%. Most high budget movies get lumped into 80%, 50% and 20%. 
+## Getting the dataset
+This is really the meat of the exploration. Like most data scientists going down this road, I assumed Google would be the defacto resource. I logged into my under utilized Google Cloud Platform account and began reading the documentation to access the Google Images API. 
 
-The critics give movies with a budget of nearly $30 million a pretty even rating. There's a slight skew toward higher rating if the budget is under approximately $90 million. The critics seem to give a lot of movies in the $30 million budget range a rating of less than about 50%. This is good to know. Based on critic ratings, having a huge movie budget doesn’t guarantee you anything.
+I got my api registration key and started reading the documentation on how to use the API. I wanted to try it out for free since I had never used it, and wanted to give it a test drive. After a few failed attempts to access the API I hopped over to stackoverflow.com to see what the issue was that I was facing. 
 
-<img style="background-color:gray; height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/critics-ratings.png" alt="Heatmap of critic movie ratings">
+It became apparent that Google doesn’t allow a free API key to use there image search. Then, I read a comment that recommended using Microsoft’s Bing search engine. Naturally I did want any good millennial should do, when presented with such a comment, I chuckled for a bit. However, after attempting some other failed attempts at getting something to work with the Google API I figured, what the heck it’s 2020! Anything could happen. I typed ```www.bing.com``` into my browser and I’ll never be the same again.
 
-## Can you buy your fans?
-It should be noted that the scales differ on each these plots. The details in the audience plot were more tightly clustered. This made it hard to make inferences bases on the plot, therefore I effectively “zoomed in” on the X-axis to be able to interpret the plot better.
+## Bing!
+How knew Bing actually worked well for image search. I will likely become a laughing stock, and probably forfeit any future software jobs for saying this, I prefer Bing over Google, for image search.
 
-It seems the audience tends to be harsher and more forgiving, strangely. This dichotomous statement is visualized by the smaller rounder shape of the plot. There are so few 100%s and 0%s that they don’t even register on this plot. The audience seems to be on the fence for more movies.
+## Up and running
+It didn’t take long to find a small project on github that gave me a tool to scrape images from bing. Unlike Google Image search, Bing doesn’t require you to have a paid API account to use the image search API. +1 for Microsoft. 
 
-The gravity of the heat map is closer to the centroid of the entire plot. Whereas, in the critics plot it was more evenly spread out. The audience tends to give a disproportionately large amount of movies 50%, whereas the critics definitely felt that there were plenty of movies that rated much lower than 50%. 
+I started scraping the web for images of Zumwalts and Type 052s. Within hours I had thousands of images.
 
-No, the audience can’t be bought either, however we're more forgiving for the lower rated movies and expect much more on the top rated end of the spectrum.
+## Wash your hands and despair
+It’s important, in the day and age of COVID19, to wash your hands and keep things clean. This is no exception to data! I took a small sample size of my images and quickly found garbage images. Stuff that had nothing to do with my subject matter. This would likely spell disaster for my CNN later to come. 
 
-<img style="background-color:gray; height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/audience-ratings.png" alt="Heatmap of audience ratings">
+There was no way I was manually going to be able to sift through all my images and pick out the ones that were cluttering up my dataset. 
 
-## Critics v. audience 
-I wanted to look at the age old question, at least amongst my inner circle, of whether or not the audience matches up with what the critics say.
+The days began to look gloomy. Darkness began creeping in on all sides. I began contemplating life, and how I got here. What could possibly have gone wrong? Late at night, whilst in a dark place on the web contemplating things that only the most disparate software engineers would consider. Things that began with titles such as, “Javascript” and “Documentation”.
 
-At first glance it might appear so, however on further inspection we already know that the audience doesn’t quite match up. The first observation is that most of the 0%s that the critics gave, the audience gave about 20%. We already knew that though. A more interesting point is in the 60% ratings. Critics and the audience seem to match up nicely from 60% - 70%, then the audience ratings’ begin to taper off. 
+I cast my eyes down toward the ground in my office and my eyes fell on a brown corrugated box. It had a small symbol on it. Was it just my imagination, or was the symbol smiling at me. I l feared I may have pushed too hard, and my mental psyche just couldn’t handle it. Then, I looked closer, and no, it wasn’t my mushy abused brain conjuring up hallucinations to titillate my consciences into false hopes. It was indeed a small old box.
 
-To answer the question; the audience and critics do agree for the majority of movies within a degree of tolerance. As the movies get worse or better the audience tends to diverge from the critics.
+A box that had once delivered a small dose of dopamine when I’d seen it sitting on my front porch, was what I was staring at. It was in fact an old Amazon Prime delivery box. The Amazon Prime symbol did resemble a small cheerful smile. Indeed, I wasn’t going crazy. Then, a spark of genius struck me. I felt something happen in my skull. Something slightly foreign and strange. Something I hadn’t felt for nearly hours. My brain began working!
 
-<img style="background-color:gray; height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/critic-v-audience-heat.png" alt="Critics and audience ploted together">
+## Rekognition
+Amazon has a very handy free to use tool called Rekognition. You can upload an image to it, and it will classify your image with a reasonable degree of certainty. Better yet, the folks over at AWS have giving you the tools necessary to call this Rekognition from the command line. I used a small python script to sift through my dataset and clean up my images.
 
-## Key take-aways
-If the critics give a movie a 100%, or nearly that, be skeptical. The movie might not hold up to your expectations. Furthermore, if the movie did very poorly you’re likely to be more forgiving. For everything else, it would appear it's pretty similar.
+I queried Rekognition for the top four tags associated with my validation image. One for the Zumwalt and one for the Type 052. Then, I saved the tags and had it go over every image in my dataset. If the tags produced by Rekognition didn’t match at least one of the tags from my validation image I flagged it for later inspection and moved it to a different folder in my AWS S3 bucket.
+
+## Electricity and heat
+Now that my dataset had been cleaned and was free of garbage I created a few different CNN models and played around with different depths. I adjusted the drop out layers, convolutions layers and feature maps.
+
+I took a weekend of constantly training on my poor old machine to produce some adequate results. My dataset was small, nearly 7k images in all, however using the ```ImageDataGenerator``` package from Keras I was able to maximize model learning on my dataset; via sheer, zoom and horizontal_flip arguments. 
+
+## Results 
+Using Seaborn I was able to graph my model performance. My focus was to get as high of accuracy as possible with the least amount of over-fitting. Overfitting can be detected by the difference, in this case, of the numbers for the final epoch. The bigger the difference the worse the over fitting. 
+
 
 ## Sources 
-Banner and thumbnail taken from [Evan Michalski](https://www.artstation.com/artwork/GX608B)
+Banner and thumbnail taken from [Adomas Stropirstis](https://www.artstation.com/artwork/Qz4LGB)
