@@ -57,8 +57,8 @@ Bigger is better? The age old euphemism. The training results were promising. Ho
 
 Let's look at the next one.
 
-Dropout helps prevent overfitting. It does a great job at it. The concept is simple. While training the model essential turns off randomly selected neurons. This prevents strengthening the neurons that are already gaining traction and may eventually dominate the decision process in the entire model. This allows the model to be more balanced and essentially helps stop overfitting. In this case, adding another layer of dropout didn’t help. A bigger model isn’t necessarily better.
-
+Dropout helps prevent overfitting. It does a great job at it. The concept is simple. While the model is training, essentially, turn off randomly selected neurons. This prevents strengthening the neurons that are already gaining traction and may eventually dominate the decision process in the entire model. This allows the model to be more balanced and essentially helps stop overfitting. In this case, adding another layer of dropout didn’t help. A bigger model isn’t necessarily better.
+,
 <img style="height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/image_search/32_64_128_2_dropout.png" alt="reported cases of immunizable diseases in california plot">
 
 These next two models I kept everything the same except for the dropout and convolutional layers. One dropout layer and only two convolutional layers don’t preform much better than the previous one. The amount of overfitting was very obvious as well. The convergence seems to be getting worse with each epoch up until epoch 60 where it almost looks like it’s approaching an asymptote. 
