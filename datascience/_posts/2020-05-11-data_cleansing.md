@@ -2,8 +2,8 @@
 background: https://cdnb.artstation.com/p/assets/images/images/024/162/177/large/adomas-storpirstis-threeredlights.jpg?1581510248
 layout: post
 artist: Devin
-subtitle: An exploration into automating data gathering, cleansing and processing.
-title: Dirty data
+subtitle: An dark look at into automating data agregation, cleansing and preprocessing.
+title: AWS Rekognition
 category: datascience
 ---
 ## Overview
