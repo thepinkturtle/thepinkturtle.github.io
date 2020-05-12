@@ -15,12 +15,12 @@ I used my standard tools for this; namely VSCode with the Jupyter extension, Pyt
 ## Getting the dataset
 Like most data scientists going down this road, I assumed Google would be the defacto resource. I logged into my, under utilized, Google Cloud Platform account and began reading the documentation to access the Google Images API. 
 
-I got my api registration key and started reading the documentation on how to use the API. I wanted to try it out for free since I had never used it. I wanted to give it a test drive. After a few failed attempts to access the API I hopped over to [stackoverflow](https://www.stackoverflow.com) to see if I could fix the issue. 
+I got my api registration key and started reading the documentation on how to use the API. After a few failed attempts to access the API I hopped over to [stackoverflow](https://www.stackoverflow.com) to see if I could fix the issue. 
 
-Apparently, Google doesn’t allow free API key's to use their image search. I read a comment that recommended using Microsoft’s Bing search engine. Naturally, I did what any good millennial should do, when presented with such a comment, I chuckled for a bit. However, after attempting some other failed attempts at getting something to work with the Google API I figured, what the heck it’s 2020! Anything could happen. I typed ```www.bing.com``` into my browser and I’ll never be the same again.
+Apparently, Google doesn’t allow free API key's to use their image search. A comment recommended using Microsoft’s Bing search engine. Naturally, I did what any good millennial should do when presented with such a comment, I chuckled for a bit. However, after attempting some other failed attempts at getting something to work with the Google API I figured what the heck it’s 2020! Anything could happen. I typed ```www.bing.com``` into my browser and I’ll never be the same again.
 
 ## Bing!
-How knew Bing actually worked well for image searches. I will likely become a laughing stock, and probably forfeit any future software jobs for saying this, I prefer Bing over Google, for image search.
+How knew Bing actually worked well for image searches? I will likely become the laughing stock and probably forfeit any future job offers for saying this, I prefer Bing over Google for image search.
 
 ## Up and running
 It didn’t take long to find a small project on github that gave me a tool to scrape images from bing. Unlike Google Image search, Bing doesn’t require you to have a paid API account to use the image search API. +1 for Microsoft. 
@@ -33,8 +33,9 @@ It’s important, in the day and age of COVID19, to wash your hands and keep thi
 There was no way I was manually going to be able to sift through all my images and pick out the ones that were cluttering up my dataset. 
 
 The days began to look gloomy. Darkness began creeping in on all sides. I began contemplating life, and how I got here. What could possibly have gone wrong? Late at night, whilst in a dark place on the web contemplating things that only the most desparate software engineers would consider. Things that began with titles such as; “Javascript,” “Documentation” and even "Supervisor" .
+I cast my eyes toward the ground, and they fell upon a brown corrugated box. 
 
-While in my office, I cast my eyes toward the ground, and they fell upon a brown corrugated box. It had a small symbol on it. Was it just my imagination, or was the symbol smiling at me. I feared I may have pushed too hard, and my mental psyche just couldn’t handle it. Then, I looked closer, and no, it wasn’t my mushy abused brain conjuring up hallucinations to titillate my consciences into false hopes. Indeed, it had something on it.
+It had a small symbol on it. Was it just my imagination, or was the symbol smiling at me. I feared I may have pushed too hard, and my mental psyche just couldn’t handle it. Then, I looked closer, and no, it wasn’t my mushy abused brain conjuring up hallucinations to titillate my consciences into false hopes. Indeed, it had something on it.
 
 A box that had once delivered a small dose of dopamine, when I’d seen it sitting on my front porch in days yonder. It was in fact an old Amazon Prime delivery box. The Amazon Prime symbol did resemble a small cheerful smile. I wasn’t going crazy! Then, a spark of genius struck me. I felt something happen in my skull. Something slightly foreign and strange. Something I hadn’t felt for nearly hours. My brain began working!
 
