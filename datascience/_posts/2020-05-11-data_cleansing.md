@@ -17,7 +17,7 @@ Like most data scientists going down this road, I assumed Google would be the de
 
 I got my api registration key and started reading the documentation on how to use the API. I wanted to try it out for free since I had never used it. I wanted to give it a test drive. After a few failed attempts to access the API I hopped over to [stackoverflow](https://www.stackoverflow.com) to see if I could fix the issue. 
 
-Apparently, Google doesn’t allow free API key's to use there image search. I read a comment that recommended using Microsoft’s Bing search engine. Naturally, I did what any good millennial should do, when presented with such a comment, I chuckled for a bit. However, after attempting some other failed attempts at getting something to work with the Google API I figured, what the heck it’s 2020! Anything could happen. I typed ```www.bing.com``` into my browser and I’ll never be the same again.
+Apparently, Google doesn’t allow free API key's to use their image search. I read a comment that recommended using Microsoft’s Bing search engine. Naturally, I did what any good millennial should do, when presented with such a comment, I chuckled for a bit. However, after attempting some other failed attempts at getting something to work with the Google API I figured, what the heck it’s 2020! Anything could happen. I typed ```www.bing.com``` into my browser and I’ll never be the same again.
 
 ## Bing!
 How knew Bing actually worked well for image searches. I will likely become a laughing stock, and probably forfeit any future software jobs for saying this, I prefer Bing over Google, for image search.
