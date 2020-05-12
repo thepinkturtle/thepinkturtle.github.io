@@ -34,7 +34,7 @@ There was no way I was manually going to be able to sift through all my images a
 
 The days began to look gloomy. Darkness began creeping in on all sides. I began contemplating life, and how I got here. What could possibly have gone wrong? Late at night, whilst in a dark place on the web contemplating things that only the most desparate software engineers would consider. Things that began with titles such as; “Javascript,” “Documentation” and even "Supervisor" .
 
-While in my office, I cast my eyes toward the ground, and my eyes fell on a brown corrugated box. It had a small symbol on it. Was it just my imagination, or was the symbol smiling at me. I feared I may have pushed too hard, and my mental psyche just couldn’t handle it. Then, I looked closer, and no, it wasn’t my mushy abused brain conjuring up hallucinations to titillate my consciences into false hopes. Indeed, it had something on it.
+While in my office, I cast my eyes toward the ground, and they fell upon a brown corrugated box. It had a small symbol on it. Was it just my imagination, or was the symbol smiling at me. I feared I may have pushed too hard, and my mental psyche just couldn’t handle it. Then, I looked closer, and no, it wasn’t my mushy abused brain conjuring up hallucinations to titillate my consciences into false hopes. Indeed, it had something on it.
 
 A box that had once delivered a small dose of dopamine, when I’d seen it sitting on my front porch in days yonder. It was in fact an old Amazon Prime delivery box. The Amazon Prime symbol did resemble a small cheerful smile. I wasn’t going crazy! Then, a spark of genius struck me. I felt something happen in my skull. Something slightly foreign and strange. Something I hadn’t felt for nearly hours. My brain began working!
 
