@@ -2,7 +2,7 @@
 background: https://cdnb.artstation.com/p/assets/images/images/024/162/177/large/adomas-storpirstis-threeredlights.jpg?1581510248
 layout: post
 artist: Devin
-subtitle: An dark look at into automating data agregation, cleansing and preprocessing.
+subtitle: A dark look at into automating data agregation, cleansing and preprocessing.
 title: AWS Rekognition
 category: datascience
 ---
