@@ -11,7 +11,7 @@ category: datascience
 <img style="height: .1%; width: .1%;" src="https://cdnb.artstation.com/p/assets/images/images/024/162/177/large/adomas-storpirstis-threeredlights.jpg?1581510248" alt="reported cases of immunizable diseases in california plot">
 
 ## Overview
-I wanted to create a dataset from scratch and make a convolution neural network to identity different types of ships. I decided to go with a chinese Type 052 destroyer and a DDG Zumwalt class destroyer. The Zumwalt is distinct from all other ships. I used it in hopes of getting a decent result when training on my local machine against the Type 052. What happen though, caused me to question life, reality and even my very existence.
+I wanted to create a dataset from scratch and make a convolution neural network to identify different types of ships. I decided to go with a chinese Type 052 destroyer and a DDG Zumwalt class destroyer. The Zumwalt is distinct from all other ships. I used it in hopes of getting a decent result when training on my local machine against the Type 052. What happen though, caused me to question life, reality and even my very existence.
 
 ## Mining Op.
 I used my standard tools for this; namely VSCode with the Jupyter extension, Python, Numpy, Seaborn and Keras with the Tensorflow backend. Furthermore, I used Amazon’s AWS Rekognition software. All my code can be found on [github](https://github.com/thepinkturtle/rocket_rhino).
