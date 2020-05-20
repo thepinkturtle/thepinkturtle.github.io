@@ -2,12 +2,16 @@
 background: https://cdnb.artstation.com/p/assets/images/images/024/162/177/large/adomas-storpirstis-threeredlights.jpg?1581510248
 layout: post
 artist: Devin
-subtitle: An dark look at into automating data agregation, cleansing and preprocessing.
+subtitle: A dark look at automating data agregation, cleansing and preprocessing.
 title: AWS Rekognition
 category: datascience
 ---
+
+
+<img style="height: .1%; width: .1%;" src="https://cdnb.artstation.com/p/assets/images/images/024/162/177/large/adomas-storpirstis-threeredlights.jpg?1581510248" alt="reported cases of immunizable diseases in california plot">
+
 ## Overview
-I wanted to create a dataset from scratch and make a convolution neural network to identity different types of ships. I decided to go with a chinese Type 052 destroyer and a DDG Zumwalt class destroyer. The Zumwalt is distinct from all other ships. I used it in hopes of getting a decent result when training on my local machine against the Type 052. What happen though, caused me to question life, reality and even my very existence.
+I wanted to create a dataset from scratch and make a convolution neural network to identify different types of ships. I decided to go with a chinese Type 052 destroyer and a DDG Zumwalt class destroyer. The Zumwalt is distinct from all other ships. I used it in hopes of getting a decent result when training on my local machine against the Type 052. What happen though, caused me to question life, reality and even my very existence.
 
 ## Mining Op.
 I used my standard tools for this; namely VSCode with the Jupyter extension, Python, Numpy, Seaborn and Keras with the Tensorflow backend. Furthermore, I used Amazon’s AWS Rekognition software. All my code can be found on [github](https://github.com/thepinkturtle/rocket_rhino).
@@ -15,12 +19,12 @@ I used my standard tools for this; namely VSCode with the Jupyter extension, Pyt
 ## Getting the dataset
 Like most data scientists going down this road, I assumed Google would be the defacto resource. I logged into my, under utilized, Google Cloud Platform account and began reading the documentation to access the Google Images API. 
 
-I got my api registration key and started reading the documentation on how to use the API. I wanted to try it out for free since I had never used it. I wanted to give it a test drive. After a few failed attempts to access the API I hopped over to [stackoverflow](https://www.stackoverflow.com) to see if I could fix the issue. 
+I got my api registration key and started reading the documentation on how to use the API. After a few failed attempts to access the API I hopped over to [stackoverflow](https://www.stackoverflow.com) to see if I could fix the issue. 
 
-Apparently, Google doesn’t allow free API key's to use there image search. I read a comment that recommended using Microsoft’s Bing search engine. Naturally, I did what any good millennial should do, when presented with such a comment, I chuckled for a bit. However, after attempting some other failed attempts at getting something to work with the Google API I figured, what the heck it’s 2020! Anything could happen. I typed ```www.bing.com``` into my browser and I’ll never be the same again.
+Apparently, Google doesn’t allow free API key's to use their image search. A comment recommended using Microsoft’s Bing search engine. Naturally, I did what any good millennial should do when presented with such a comment, I chuckled for a bit. However, after attempting some other failed attempts at getting something to work with the Google API I figured what the heck it’s 2020! Anything could happen. I typed ```www.bing.com``` into my browser and I’ll never be the same again.
 
 ## Bing!
-How knew Bing actually worked well for image searches. I will likely become a laughing stock, and probably forfeit any future software jobs for saying this, I prefer Bing over Google, for image search.
+How knew Bing actually worked well for image searches? I will likely become the laughing stock and probably forfeit any future job offers for saying this, I prefer Bing over Google for image search.
 
 ## Up and running
 It didn’t take long to find a small project on github that gave me a tool to scrape images from bing. Unlike Google Image search, Bing doesn’t require you to have a paid API account to use the image search API. +1 for Microsoft. 
@@ -32,9 +36,10 @@ It’s important, in the day and age of COVID19, to wash your hands and keep thi
 
 There was no way I was manually going to be able to sift through all my images and pick out the ones that were cluttering up my dataset. 
 
-The days began to look gloomy. Darkness began creeping in on all sides. I began contemplating life, and how I got here. What could possibly have gone wrong? Late at night, whilst in a dark place on the web contemplating things that only the most disparate software engineers would consider. Things that began with titles such as; “Javascript,”“Documentation” and even "Supervisor" .
+The days began to look gloomy. Darkness began creeping in on all sides. I began contemplating life, and how I got here. What could possibly have gone wrong? Late at night, whilst in a dark place on the web contemplating things that only the most desparate software engineers would consider. Things that began with titles such as; “Javascript,” “Documentation” and even "Supervisor" .
+I cast my eyes toward the ground, and they fell upon a brown corrugated box. 
 
-I cast my eyes down toward the ground in my office and my eyes fell on a brown corrugated box. It had a small symbol on it. Was it just my imagination, or was the symbol smiling at me. I feared I may have pushed too hard, and my mental psyche just couldn’t handle it. Then, I looked closer, and no, it wasn’t my mushy abused brain conjuring up hallucinations to titillate my consciences into false hopes. Indeed, it had something on it.
+It had a small symbol on it. Was it just my imagination, or was the symbol smiling at me. I feared I may have pushed too hard, and my mental psyche just couldn’t handle it. Then, I looked closer, and no, it wasn’t my mushy abused brain conjuring up hallucinations to titillate my consciences into false hopes. Indeed, it had something on it.
 
 A box that had once delivered a small dose of dopamine, when I’d seen it sitting on my front porch in days yonder. It was in fact an old Amazon Prime delivery box. The Amazon Prime symbol did resemble a small cheerful smile. I wasn’t going crazy! Then, a spark of genius struck me. I felt something happen in my skull. Something slightly foreign and strange. Something I hadn’t felt for nearly hours. My brain began working!
 
@@ -57,8 +62,8 @@ Bigger is better? The age old euphemism. The training results were promising. Ho
 
 Let's look at the next one.
 
-Dropout helps prevent overfitting. It does a great job at it. The concept is simple. While training the model essential turns off randomly selected neurons. This prevents strengthening the neurons that are already gaining traction and may eventually dominate the decision process in the entire model. This allows the model to be more balanced and essentially helps stop overfitting. In this case, adding another layer of dropout didn’t help. A bigger model isn’t necessarily better.
-
+Dropout helps prevent overfitting. It does a great job at it. The concept is simple. While the model is training, essentially, turn off randomly selected neurons. This prevents strengthening the neurons that are already gaining traction and may eventually dominate the decision process in the entire model. This allows the model to be more balanced and essentially helps stop overfitting. In this case, adding another layer of dropout didn’t help. A bigger model isn’t necessarily better.
+,
 <img style="height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/image_search/32_64_128_2_dropout.png" alt="reported cases of immunizable diseases in california plot">
 
 These next two models I kept everything the same except for the dropout and convolutional layers. One dropout layer and only two convolutional layers don’t preform much better than the previous one. The amount of overfitting was very obvious as well. The convergence seems to be getting worse with each epoch up until epoch 60 where it almost looks like it’s approaching an asymptote. 
