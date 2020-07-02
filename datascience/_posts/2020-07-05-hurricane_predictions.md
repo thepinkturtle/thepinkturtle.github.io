@@ -11,17 +11,23 @@ category: datascience
 
 
 ## Hurricanes
+Everyone knows that hurricanes are one the most destructive forces on the planet. How can we use technology to help aid in advanced warning and potentially save lives? I decided to get my feet wet and build a neural network that classifies storms based on the following parameters: latitude, longitude, month, pressure, wind speed and time of day.
 
+## Overview
+I started out naively thinking that I could just toss this data into my neural network and it’d learn the formula for storm classification. Well, it wasn’t quite that easy. There were a few stumbling blocks along the path that I had to overcome in order to boost my accuracy to create a useful classifier. 
+
+## latitude and longitude
+There are various ways of handling these data points. At first I contemplated making dummy variables for all the combinations of these and then just settling on a huge feature set consisting of a large sparse matrix. After attempting this and watching my features grow from 8 to nearly 1000 I took this back to the drawing board. I did a little research and found that the best method is to map the latitude and longitude onto a x,y,z cartesian coordinate system. 
+
+The actual mapping is quite elementary
 
 ## Mining Op.
-All my source code can be found in my [Github](https://github.com/thepinkturtle/polymorphic_categon.git) repo. I used Python, Pandas, Numpy, Matplotlib, NLTK, Jupyter and datasets gathered from Github logs.
-
+All my source code can be found in my [Github](https://github.com/thepinkturtle/crazy_coconut) repo. I used Python, Pandas, Numpy, Matplotlib, Jupyter, graphviz, seaborn
 ## Purpose
 
 
 ## Dataset
-
-<!-- <img style="height: .1%; width: .1%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/bootstrap/v5_freq.png" alt="plot of bootstrap v3 word count in github comments"> -->
+My dataset was a curated one from [kaggle](https://www.kaggle.com/noaa/hurricane-database). My goto source for fun and interesting datasets.
 
 ## Wrap up
 
