@@ -28,7 +28,7 @@ This is a fun visualization of the network using “[Ann Viz”](https://github.
 <img style="height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/hurricane_network.png" alt="Neural network layers visualized">
  
  
-The following image shows a little more detail. This is more useful thatn the above. However it does leave something to be desired regarding color and labeling.
+The following image shows a little more detail. This is more useful than above. However it does leave something to be desired regarding coloring and labeling.
 <img style="height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/hurricane_layer_detail.png" alt="Neural network shape with details">
  
  
