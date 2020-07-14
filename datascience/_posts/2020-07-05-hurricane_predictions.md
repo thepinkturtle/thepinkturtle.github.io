@@ -61,9 +61,3 @@ For now, this was a great exercise in feature encoding and data preparation. Som
  
 ## Sources
 Banner and thumbnail taken from [Alex Rommel](https://www.artstation.com/artwork/3ovPmo)
- 
-## Sources
-Banner and thumbnail taken from [Alex Rommel](https://www.artstation.com/artwork/3ovPmo)
- 
- 
-
