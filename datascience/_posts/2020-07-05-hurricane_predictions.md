@@ -26,7 +26,10 @@ My dataset was a curated one from [kaggle](https://www.kaggle.com/noaa/hurricane
 I found that best performance from a multi-layered neural net with 18 input features and 9 output features. Observe the following images for a better understanding of the shape of the network.
 
 [picture](picture)
-[picture](picture)
+<img style="height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/hurricane_network.png" alt="Neural network layers visualized">
+
+<img style="height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/hurricane_layer_detail.png" alt="Neural network shape with details">
+
 
 ## latitude and longitude
 There are various ways of handling these data points. At first I contemplated making dummy variables for all the combinations of these and then just settling on a huge feature set consisting of a large sparse matrix. After attempting this and watching my features grow from 8 to nearly 1000 I took this back to the drawing board. I did a little research and found that the best method is to map the latitude and longitude onto a x,y,z cartesian coordinate system. 
@@ -47,7 +50,10 @@ I noticed that most of the earlier dates had next to no pressure and wind speed 
 ## Performance
 The accuracy of the network was admirable with ~85%. Only having 3 hidden layers with neurons between the number of inputs and outputs (18 - 9 respectively). A little be of research indicates that there is no formula to give you the optimum number of neurons per hidden layer. However there are some general guidelines. I decided to experiment with the number of neurons and ended up with this configuration yielding the best results.
 
-[picture](picture)
+
+<img style="height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/hurricane_accuracy.png" alt="Neural network accuracy plot">
+
+
 ## Wrap up
 In the end, the model did a decent job classifying hurricanes based on the 18 features. It’d be interesting to build another time series model and an LSTM layer or some other form of an RNN and see if it can predict a hurricane based on previous readings. I might end up doing that and if so I’ll update this exploration. 
 
