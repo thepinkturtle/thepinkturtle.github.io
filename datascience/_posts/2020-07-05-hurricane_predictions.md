@@ -25,11 +25,11 @@ My dataset was a curated one from [kaggle](https://www.kaggle.com/noaa/hurricane
 ## Model creation
 I played around with it and found the best performance from the multi-layered neural net with 18 input features and 9 output features. I won't explain what is obviously observed from the following images. A picture makes the complicated much more consumable, occasionally.
  
-This is a fun visualization of the network using “[Ann Viz”](https://github.com/Prodicode/ann-visualizer)
+This is a fun visualization of the network using “[Ann Viz”](https://github.com/Prodicode/ann-visualizer). It works well. It's basic however it's simple and easy to use. 
 <img style="height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/hurricane_network.png" alt="Neural network layers visualized">
  
  
-The following image shows a little more detail.
+The following image shows a little more detail. This is more useful thatn the above. However it does leave something to be desired regarding color and labeling.
 <img style="height: 100%; width: 100%;" src="https://raw.githubusercontent.com/thepinkturtle/thepinkturtle.github.io/master/datascience/_posts/images/hurricane_layer_detail.png" alt="Neural network shape with details">
  
  
