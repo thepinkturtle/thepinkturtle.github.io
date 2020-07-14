@@ -9,7 +9,6 @@ category: datascience
 ## Overview
 <img style="height: .001%; width: .001%;" src="https://cdna.artstation.com/p/assets/images/images/016/158/458/large/alex-rommel-galactical-storm1250.jpg?1551126761" alt="Galactial storm fictional drawing">
  
- 
 ## Hurricanes
 Everyone knows that hurricanes are one of the most destructive forces on the planet. How can we use technology to help aid in advanced warning and potentially save lives? I decided to get my feet wet and build a neural network that classifies storms based on the following parameters: latitude, longitude, month, pressure, wind speed and time of day.
  
@@ -37,11 +36,13 @@ The following image shows a little more detail. This is more useful thatn the ab
 There are various ways of handling these data points. At first I contemplated making dummy variables for all the combinations of latitude and longitude and then just settling on a huge feature set consisting of a large sparse matrix. After attempting this and watching my features grow from 8 to nearly 1000 I took this back to the drawing board. I did a little research and found that the best method is to map the latitude and longitude onto a x,y,z cartesian coordinate system.
  
 The actual mapping is quite simple. I converted the latitude and longitude through three simple functions.
+```
 R is the radius of the earth in kilometers (6371)
 x = R * (cos(lat) * cos(long))
 y = R * (cos(lat) * sin(long))
 z = R * sin(lat)
- 
+```
+
 ## Feature Selection
 This was the most difficult part. I began curating this dataset many weeks prior to any actual results. I struggled with knowing what to do with the time, date, latitude and longitude. I didn’t know if I should “one shot hot encode” everything into dummy variables or remove the features entirely.
  
