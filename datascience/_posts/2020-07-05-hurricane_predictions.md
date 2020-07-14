@@ -6,7 +6,6 @@ subtitle: Hurricane season is upon us, how can technology help?
 title: Supervised Neural Networks classifiying hurricanes?
 category: datascience
 ---
-## Overview
 <img style="height: .001%; width: .001%;" src="https://cdna.artstation.com/p/assets/images/images/016/158/458/large/alex-rommel-galactical-storm1250.jpg?1551126761" alt="Galactial storm fictional drawing">
  
 ## Hurricanes
