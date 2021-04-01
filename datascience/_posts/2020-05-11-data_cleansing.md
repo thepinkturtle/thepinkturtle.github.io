@@ -24,7 +24,7 @@ I got my api registration key and started reading the documentation on how to us
 Apparently, Google doesn’t allow free API key's to use their image search. A comment recommended using Microsoft’s Bing search engine. Naturally, I did what any good millennial should do when presented with such a comment, I chuckled for a bit. However, after attempting some other failed attempts at getting something to work with the Google API I figured what the heck it’s 2020! Anything could happen. I typed ```www.bing.com``` into my browser and I’ll never be the same again.
 
 ## Bing!
-How knew Bing actually worked well for image searches? I will likely become the laughing stock and probably forfeit any future job offers for saying this, I prefer Bing over Google for image search.
+Who knew Bing actually worked well for image searches? I will likely become the laughing stock and probably forfeit any future job offers for saying this, I prefer Bing over Google for image search.
 
 ## Up and running
 It didn’t take long to find a small project on github that gave me a tool to scrape images from bing. Unlike Google Image search, Bing doesn’t require you to have a paid API account to use the image search API. +1 for Microsoft. 
